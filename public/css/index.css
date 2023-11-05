@@ -1,0 +1,134 @@
+/* ----------------- */
+/* ESTILOS GENERALES */
+/* ----------------- */
+
+/* ----------------- */
+/*      HEADER       */
+/* ----------------- */
+/* Clases agregadas por Cristian */
+
+header{
+    background-color: #11111f;
+    color: white;
+}
+header section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header section img{/* logo */
+    width: 50vw;
+}
+header section input{/* barra de busqueda*/
+    width: 50vw;
+    border: solid 1px #ffb81c;
+    border-radius: 4px;
+}
+header section div{/*Registrate - Tu carrito*/
+    margin-top: 10px;
+    font-size: 12px;
+}
+header section div i{
+    margin: 0px 25px;
+}
+header nav{
+}
+header nav ul{
+}
+
+@media (min-width: 769px){
+    header{
+    }
+    header section{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header section img{
+        width: 30vw;
+    }
+    header section input{
+        width: 50vw;
+        border: solid 1px #feb81c;
+        border-radius: 4px;
+    }
+    header section div{
+        display: flex;
+        flex-direction: column;
+        margin-right: 20px;
+    }
+    header section div i{
+        margin: 10px;
+    }
+    header nav{
+        border-top: solid 5px white;
+    }
+    header nav ul{
+        display: flex;
+        justify-content: space-around;
+        padding: 0px;
+        margin: 0px;
+    }
+    header nav ul li{
+    }
+}
+/* Hasta aqui agrego Cristian */
+
+
+/* ----------------- */
+/*       MAIN        */
+/* ----------------- */
+
+/* Manteneme Actualizado */
+.suscripcion{
+    background-color: #11111f;
+    color: #feb81c;
+    text-align: center;
+    padding: 0.625rem 1rem;
+    box-shadow: #11111f 0px 0.1875rem 0.3125rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.letter{
+    text-decoration: none;
+    color: #ffb81c;
+    font-size: 1.5rem;
+    text-align: center;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0.5rem;
+
+    width: 3.5rem;
+    height: 3.5rem;
+
+    border: 0.1875rem #ffb81c solid;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.ahora {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* ----------------- */
+/*      FOOTER       */
+/* ----------------- */
+
+
+
+/* ----------------- */
+/*   MEDIA QUERIES   */
+/* ----------------- */
+
+
